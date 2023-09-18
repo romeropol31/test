@@ -11,7 +11,6 @@
 
     <section class="create-todo">
       <h3>CREATE A TODO</h3>
-      asdasda
       <form @submit.prevent="addTodo">
         <h4>What's on your todo list?</h4>
         <input type="text" v-model="input_content" placeholder="e.g make a video" />
